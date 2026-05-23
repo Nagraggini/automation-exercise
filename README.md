@@ -1,4 +1,5 @@
 <!-- 1. Státusz és Minőség -->
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e1b787ad3b24642afe468da97cd8a3b)](https://app.codacy.com/gh/Nagraggini/automation-exercise?utm_source=github.com&utm_medium=referral&utm_content=Nagraggini/automation-exercise&utm_campaign=Badge_Grade)
 [![Java Selenium CI](https://github.com/Nagraggini/selenium-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/Nagraggini/selenium-playground/actions/workflows/ci.yml)
 
 
