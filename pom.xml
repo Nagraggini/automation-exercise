@@ -59,7 +59,7 @@
 
             <!--Surefire plugin (JUnit 5 miatt ajánlott)-->
             <plugin>
-                <!--Új verzió kell a Java 21-től. -->
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
             </plugin>

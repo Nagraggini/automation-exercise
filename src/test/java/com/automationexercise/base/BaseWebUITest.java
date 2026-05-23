@@ -3,16 +3,11 @@ package com.automationexercise.base;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /** Közös UI függvények (openPage, handleCookies) */
 public class BaseWebUITest extends BaseTest {
-
-    protected WebDriver driver;
-    // 10 másodperces várakoztatás deklarálása.
-    protected WebDriverWait wait;
 
     /** Csak azt, hogy a böngésző szerint az oldal betöltődött. */
     public void waitForPageLoad() {

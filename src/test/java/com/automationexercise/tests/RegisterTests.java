@@ -4,16 +4,19 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import com.automationexercise.base.BaseWebUITest;
+import com.automationexercise.pages.RegistrationPage;
 
 //https://automationexercise.com/test_cases
 public class RegisterTests extends BaseWebUITest {
 
-    private BaseWebUITest baseWebUITest = new BaseWebUITest();
-
     @Test
     @DisplayName("Test Case 1: Register User")
     void validRegisterUseTest() {
-        baseWebUITest.openPage("https://automationexercise.com/");
+        openPage("https://automationexercise.com/");
+
+        RegistrationPage registrationPage = new RegistrationPage(driver);
+
+        registrationPage.clickOnSignUpLogin();
 
         // Generálunk egy egyedi számot az idő alapján (pl. 1716453218)
         long uniqueTime = System.currentTimeMillis();
