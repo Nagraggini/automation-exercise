@@ -18,6 +18,11 @@
 
 A projekt létrehozása és minden beállításhoz való útmutatót [itt](https://github.com/Nagraggini/selenium-playground/blob/main/README.md) találsz. 
 
+# Források
+
+https://devhints.io/xpath
+https://www.geeksforgeeks.org/software-testing/xpath-locators/
+
 # Mappastruktúra
 
 ```bash

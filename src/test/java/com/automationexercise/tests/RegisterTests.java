@@ -16,7 +16,8 @@ public class RegisterTests extends BaseWebUITest {
 
         RegistrationPage registrationPage = new RegistrationPage(driver);
 
-        registrationPage.clickOnSignUpLogin();
+        registrationPage.clickBannerClose();
+        // registrationPage.clickOnSignUpLogin();
 
         // Generálunk egy egyedi számot az idő alapján (pl. 1716453218)
         long uniqueTime = System.currentTimeMillis();
