@@ -18,6 +18,8 @@
 
 A projekt létrehozása és minden beállításhoz való útmutatót [itt](https://github.com/Nagraggini/selenium-playground/blob/main/README.md) találsz. 
 
+[Programozásról szóló jegyzeteim](https://nagraggini.github.io/my-awesome-book/)
+
 # Források
 
 https://devhints.io/xpath
