@@ -28,6 +28,13 @@ public class BaseTest {
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless=new");
 
+        // Teljesen elnémítja a CDP verziókereső hibaüzeneteit
+        java.util.logging.Logger.getLogger("org.openqa.selenium.devtools.CdpVersionFinder")
+                .setLevel(java.util.logging.Level.OFF);
+
+        // Az összes Selenium figyelmeztetés elnémítása
+        java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(java.util.logging.Level.SEVERE);
+
         // Itt inicializáljuk a LOKÁLIS drivert.
         // Ezzel nem nyílik meg a böngésző.
         driver = new ChromeDriver(options);
