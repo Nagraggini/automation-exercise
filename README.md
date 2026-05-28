@@ -1,5 +1,5 @@
 <!-- 1. Státusz és Minőség -->
-[![Java Selenium CI](https://github.com/Nagraggini/selenium-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/Nagraggini/selenium-playground/actions/workflows/ci.yml)
+[![Java Selenium CI](https://github.com/Nagraggini/automation-exercise/actions/workflows/ci.yml/badge.svg)](https://github.com/Nagraggini/automation-exercise/actions/workflows/ci.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/35d8eab8d0514685820cb6de0b8fb33a)](https://app.codacy.com/gh/Nagraggini/automation-exercise/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Nagraggini_automation-exercise&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Nagraggini_automation-exercise)
