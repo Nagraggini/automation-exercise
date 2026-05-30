@@ -27,6 +27,7 @@ public class BaseTest {
     ChromeOptions headlessMode(ChromeOptions options) {
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless=new");
+        options.addArguments("--incognito");
 
         // Teljesen elnémítja a CDP verziókereső hibaüzeneteit
         java.util.logging.Logger.getLogger("org.openqa.selenium.devtools.CdpVersionFinder")
