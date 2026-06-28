@@ -1,4 +1,4 @@
-package com.automationexercise.tests;
+package com.automationexercise.tests.registration;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
